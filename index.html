@@ -23,21 +23,21 @@
                         </a>
                     </div>
                     <div class="col d-flex align-items-center justify-content-end">
-                        <button type="button" class="btn btn-primary btn-dark ms-2" id="open-auth-btn">
+                        <button type="button" class="btn btn-primary btn-dark ms-2 modal-open" id="open-auth-btn">
                             <div class="d-flex align-items-center">
                                 <img class="pe-2" src="./images/icon/user.svg" alt="login">
                                 Войти
                             </div>
                         </button>
 
-                        <button type="button" class="btn btn-outline-dark ms-2 d-none" id="open-cart-btn">
+                        <button type="button" class="btn btn-outline-dark ms-2 d-none cart-btn" id="open-cart-btn">
                             <div class="d-flex align-items-center">
                                 <img class="pe-2" src="./images/icon/shopping-cart.svg" alt="login">
                                 Корзина
                             </div>
                         </button>
 
-                        <button type="button" class="btn btn-primary btn-dark ms-2 d-none" id="logout-btn">
+                        <button type="button" class="btn btn-primary btn-dark ms-2 d-none logout-btn" id="logout-btn">
                             <div class="d-flex align-items-center">
                                 Выйти
                             </div>
@@ -161,7 +161,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Вход</h5>
-                    <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close close-btn close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form action="#">
@@ -172,7 +172,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-dark close-btn" data-bs-dismiss="modal">Отмена</button>
+                    <button type="button" class="btn btn-outline-dark close-btn close" data-bs-dismiss="modal">Отмена</button>
                     <button type="button" class="btn btn-dark login-btn">Войти</button>
                 </div>
             </div>
