@@ -1,4 +1,5 @@
 import {openModal, closeModal} from './modals.module'
+import {getData} from "./api.module";
 
 export const doAuth = () => {
     const authBtn = document.getElementById('open-auth-btn')
@@ -18,12 +19,31 @@ export const doAuth = () => {
             password: passwordInput.value
         }
 
-        localStorage.setItem('auth', JSON.stringify(user))
+
+        getData('/profile').then(data => {
+            console.log(data)
+            if (data.login === loginInput.value && data.password === passwordInput.value) {
+                login()
+                localStorage.setItem('auth', JSON.stringify(data))
+            }
+            else {
+                alert('Введены неверные данные')
+            }
+
+        })
     }
 
     const checkAuth = () => {
-        if (JSON.parse(localStorage.getItem('auth')))
-            login()
+        const user = JSON.parse(localStorage.getItem('auth'))
+
+        if(user) {
+            getData('/profile').then(data => {
+                console.log(data)
+                if (data.login === user.login && data.password === user.password) {
+                    login()
+                }
+            })
+        }
     }
 
     const login = () => {
