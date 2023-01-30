@@ -14,11 +14,6 @@ export const doAuth = () => {
         const loginInput = modal.querySelector('#login-control')
         const passwordInput = modal.querySelector('#password-control')
 
-        let user = {
-            login: loginInput.value,
-            password: passwordInput.value
-        }
-
 
         getData('/profile').then(data => {
             console.log(data)
@@ -28,6 +23,7 @@ export const doAuth = () => {
             }
             else {
                 alert('Введены неверные данные')
+                logout()
             }
 
         })

@@ -15,45 +15,23 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Changed .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Added authorization">
+      <change afterPath="$PROJECT_DIR$/src/modules/categories.module.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/auth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reset-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reset-bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/accessory/accessory-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/accessory/accessory-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/accessory/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/accessory/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/home.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/logout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/logout.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/mi-logo-text.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/mi-logo-text.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/rating.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/rating.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/shopping-cart-big.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/shopping-cart-big.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/shopping-cart-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/shopping-cart-white.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/shopping-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/shopping-cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icon/user.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/phones/phone-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/phones/phone-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/phones/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/phones/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/promo/accessory.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/promo/accessory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/promo/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/promo/phone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/promo/smart.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/promo/smart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/social/fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/social/fb.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/social/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/social/instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/social/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/social/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/usage/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/usage/preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/usage/usage-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/usage/usage-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth.module.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +54,34 @@
       <recent name="C:\Users\uzhas76064\Projects\WebstormProjects\mi-shop-layout\dist" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.server" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,6 +92,7 @@
       <updated>1674157610064</updated>
       <workItem from="1674157611450" duration="357000" />
       <workItem from="1674157982522" duration="3350000" />
+      <workItem from="1675073112775" duration="1009000" />
     </task>
     <task id="LOCAL-00001" summary="Added content files and scripts">
       <created>1674158047960</created>
@@ -94,7 +101,42 @@
       <option name="project" value="LOCAL" />
       <updated>1674158047960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moved files and added auth.module.js">
+      <created>1674203969347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674203969347</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added localstorage saving">
+      <created>1674205884726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674205884726</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed login on catalog.html">
+      <created>1674209509972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674209509972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added layout to the modals.module.js">
+      <created>1674231321867</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674231321867</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added authorization">
+      <created>1674233192339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674233192339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,24 +156,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added content files and scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added content files and scripts" />
+    <MESSAGE value="Moved files and added auth.module.js" />
+    <MESSAGE value="Added localstorage saving" />
+    <MESSAGE value="Fixed login on catalog.html" />
+    <MESSAGE value="Added layout to the modals.module.js" />
+    <MESSAGE value="Added authorization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added authorization" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1674157969828">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1675074117978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1674157969828" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1674157969828">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1675074117978" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1675074117978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1674157969828" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1674157969828">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1675074117978" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1675074117978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1674157969828" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1674157969828">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1675074117978" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1675074117978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1674157969828" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1675074117978" />
   </component>
 </project>
