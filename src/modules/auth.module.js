@@ -6,7 +6,7 @@ export const doAuth = () => {
     const modal = document.getElementById('auth-modal')
     const closeBtn = modal.querySelectorAll('.close')
     const loginBtn = modal.querySelector('.login-btn')
-    const cartBtn = document.querySelector('.cart-btn')
+    const cartBtn = document.querySelector('#open-cart-btn')
     const logoutBtn = document.querySelector('.logout-btn')
     const cartModal = document.querySelector('#cart-modal')
 
