@@ -1,14 +1,39 @@
-import {postData, getData} from "../api.module";
+import {postData, getData, deleteData} from "../api.module";
 
 export const addCategory = () => {
     const nameInput = document.getElementById('category-name')
     const imgInput = document.getElementById('category-image')
     const addBtn = document.getElementById('category-add-btn')
+    const container = document.getElementById('category-container')
+    const select = document.getElementById('product-category')
 
     // Данные категории для добавления
     const categoryData = {
         name: '',
         preview: ''
+    }
+
+    // рендер талицы с добавленными категориями из БД
+    const render = (data) => {
+        container.innerHTML = ''
+
+        data.forEach((item, index) => {
+            container.insertAdjacentHTML('beforeend',
+                `<tr>
+                          <th scope="row">${index + 1}</th>
+                          <td>${item.name}</td>
+                          <td class="text-end">
+                              <button type="button" class="btn btn-outline-danger btn-sm" data-category="${item.id}">
+                                     удалить
+                              </button>
+                          </td>
+                       </tr>`
+            )
+
+            select.insertAdjacentHTML('beforeend', `<option value=${item.id}>${item.name}</option>`)
+        })
+
+
     }
 
     // Проверка вводимых значений на пустоту
@@ -18,6 +43,13 @@ export const addCategory = () => {
         } else {
             addBtn.disabled = false;
         }
+    }
+
+    // Обновление данных таблицы через запрос к API
+    const updateTable = () => {
+        getData('/categories').then(data => {
+            render(data)
+        })
     }
 
     // Событие ввода имени категории
@@ -58,11 +90,21 @@ export const addCategory = () => {
                 'Content-Type': 'application/json'
             }
         }).then(data => { // Получаем данные категорий
-            getData('/categories').then(data => {
-                console.log(data)
-            })
+            nameInput.value = ''
+            imgInput.value = ''
+            updateTable()
         })
     })
 
+    container.addEventListener('click', (event) => {
+        if(event.target.tagName === 'BUTTON') {
+            const id = event.target.dataset.category
+            deleteData(`/categories/${id}`).then(data => {
+                updateTable()
+            })
+        }
+    })
+
     checkInputValues()
+    updateTable()
 }

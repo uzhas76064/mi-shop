@@ -7,3 +7,7 @@ export const getData = (path) => {
 export const postData = (path, data) => {
     return fetch(server + path, data)
 }
+
+export const deleteData = (path) => {
+    return fetch(server + path, {method: 'DELETE'})
+}

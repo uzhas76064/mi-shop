@@ -16,11 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Added and fixed admin page">
+    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Added post method to put categoryData on the server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/admin/addCategory.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/admin/addCategory.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/admin/addProduct.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/admin/addProduct.module.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/api.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/api.module.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,7 @@
       <workItem from="1675933488304" duration="123000" />
       <workItem from="1676016619399" duration="314000" />
       <workItem from="1677221127869" duration="68000" />
-      <workItem from="1678016579521" duration="4139000" />
+      <workItem from="1678016579521" duration="6563000" />
     </task>
     <task id="LOCAL-00001" summary="Added content files and scripts">
       <created>1674158047960</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678017516506</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added post method to put categoryData on the server">
+      <created>1678021004557</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678021004557</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +238,8 @@
     <MESSAGE value="Added JSON-server based database" />
     <MESSAGE value="Fixed modal and cart modal" />
     <MESSAGE value="Added and fixed admin page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added and fixed admin page" />
+    <MESSAGE value="Added post method to put categoryData on the server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added post method to put categoryData on the server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="728" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1678016954195">
@@ -258,6 +266,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1678018019986" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678021107519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1678021107519" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1675074506496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
