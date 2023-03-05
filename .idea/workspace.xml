@@ -11,17 +11,17 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:admin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Fixed modal and cart modal">
-      <change afterPath="$PROJECT_DIR$/src/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/admin/addCategory.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/admin/addProduct.module.js" afterDir="false" />
+    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Added and fixed admin page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/admin/addCategory.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/admin/addCategory.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/admin/addProduct.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/admin/addProduct.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/api.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/api.module.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
@@ -48,6 +53,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/Projects/RUDN/SQL/lab3" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -99,7 +110,7 @@
       <workItem from="1675933488304" duration="123000" />
       <workItem from="1676016619399" duration="314000" />
       <workItem from="1677221127869" duration="68000" />
-      <workItem from="1678016579521" duration="795000" />
+      <workItem from="1678016579521" duration="4139000" />
     </task>
     <task id="LOCAL-00001" summary="Added content files and scripts">
       <created>1674158047960</created>
@@ -171,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675163796631</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added and fixed admin page">
+      <created>1678017516506</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678017516506</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +200,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="admin" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -200,7 +230,8 @@
     <MESSAGE value="Added separated page for every category" />
     <MESSAGE value="Added JSON-server based database" />
     <MESSAGE value="Fixed modal and cart modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed modal and cart modal" />
+    <MESSAGE value="Added and fixed admin page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and fixed admin page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="728" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1678016954195">
@@ -211,25 +242,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1677221194745" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1678017221444">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1678018019986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1678017221444" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1678017221444">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1678018019986" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1678018019986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1678017221444" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1678017221444">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1678018019986" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1678018019986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1678017221444" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1678017221444">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1678018019986" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1678018019986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1678017221444" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1678018019986" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1675074506496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1675074506496" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1678017896139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1678017896139" />
   </component>
 </project>
