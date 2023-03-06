@@ -30,6 +30,7 @@ export const addCategory = () => {
                        </tr>`
             )
 
+            // Рендер пунктов выпадающего списка
             select.insertAdjacentHTML('beforeend', `<option value=${item.id}>${item.name}</option>`)
         })
 
@@ -38,11 +39,7 @@ export const addCategory = () => {
 
     // Проверка вводимых значений на пустоту
     const checkInputValues = () => {
-        if (nameInput.value === '' || imgInput.value === '') {
-            addBtn.disabled = true;
-        } else {
-            addBtn.disabled = false;
-        }
+        addBtn.disabled = nameInput.value === '' || imgInput.value === '';
     }
 
     // Обновление данных таблицы через запрос к API
@@ -96,10 +93,11 @@ export const addCategory = () => {
         })
     })
 
+    // Поиск определенной кнопки через дата-атрибуты
     container.addEventListener('click', (event) => {
         if(event.target.tagName === 'BUTTON') {
             const id = event.target.dataset.category
-            deleteData(`/categories/${id}`).then(data => {
+            deleteData(`/categories/${id}`).then(data => { // Удаление категории по id 
                 updateTable()
             })
         }
