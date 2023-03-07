@@ -17,6 +17,7 @@
     "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
+    "hash-generator": "^0.1.0",
     "json-server": "^0.17.1"
   }
 }

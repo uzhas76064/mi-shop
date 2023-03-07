@@ -16,10 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="addProduct module completed">
+    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Posting product data into the cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/cart.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cart.module.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/products.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/products.module.js" afterDir="false" />
     </list>
@@ -113,7 +115,7 @@
       <workItem from="1677221127869" duration="68000" />
       <workItem from="1678016579521" duration="6812000" />
       <workItem from="1678099048284" duration="7233000" />
-      <workItem from="1678172255036" duration="10144000" />
+      <workItem from="1678172255036" duration="12279000" />
     </task>
     <task id="LOCAL-00001" summary="Added content files and scripts">
       <created>1674158047960</created>
@@ -213,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678106018468</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Posting product data into the cart">
+      <created>1678182973464</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678182973464</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +267,8 @@
     <MESSAGE value="Added post method to put categoryData on the server" />
     <MESSAGE value="addCategory.module.js completed" />
     <MESSAGE value="addProduct module completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="addProduct module completed" />
+    <MESSAGE value="Posting product data into the cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Posting product data into the cart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678176555097">
@@ -273,22 +283,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1677221194745" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1678182457544">
+    <state width="938" height="218" key="GridCell.Tab.0.bottom" timestamp="1678184768745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1678182457544" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1678182457544">
+    <state width="938" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1678184768745" />
+    <state width="938" height="218" key="GridCell.Tab.0.center" timestamp="1678184768745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1678182457544" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1678182457544">
+    <state width="938" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1678184768745" />
+    <state width="938" height="218" key="GridCell.Tab.0.left" timestamp="1678184768745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1678182457544" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1678182457544">
+    <state width="938" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1678184768745" />
+    <state width="938" height="218" key="GridCell.Tab.0.right" timestamp="1678184768745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1678182457544" />
+    <state width="938" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1678184768745" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678021107519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,4 +1,5 @@
 import {getData, postData} from "./api.module";
+const hashGenerator = require('hash-generator')
 
 export const productsFunc = () => {
     const container = document.getElementById('products-container')
@@ -34,17 +35,18 @@ export const productsFunc = () => {
         const addToCartBtn = document.querySelectorAll('.add-to-cart')
         //console.log(addToCartBtn)
 
-        addToCartBtn.forEach(btn => {
+        addToCartBtn.forEach((btn) => {
             btn.addEventListener('click', (e) => {
                 console.log(e.target.nodeName)
                 console.log(e.target.dataset.id)
-                console.dir(e.target)
-                const id = e.target.dataset.id
+                const productId = e.target.dataset.id
+                let count = 1;
 
                 const cartData = {
-                    id: id,
+                    id: hashGenerator(8),
+                    productId,
                     name: e.target.dataset.productname,
-                    count: 1,
+                    count,
                     price: Number(e.target.dataset.price)
                 }
                 console.log(cartData)
@@ -58,7 +60,7 @@ export const productsFunc = () => {
                 }).then(data => {
                     return data
                 })
-
+                count++
             })
 
         })
