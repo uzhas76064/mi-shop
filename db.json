@@ -56,140 +56,22 @@
   ],
   "cart": [
     {
-      "id": "whsd553c",
+      "id": "pkqkss51",
+      "productId": "9",
+      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
+      "price": 59990
+    },
+    {
+      "id": "a4mivla8",
+      "productId": "9",
+      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
+      "price": 59990
+    },
+    {
+      "id": "yjlsjfv1",
       "productId": "12",
       "name": "Samsung Galaxy A13 4/128GB Black",
-      "count": 1,
       "price": 14990
-    },
-    {
-      "id": "y8sopqtg",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "z1gimq0l",
-      "count": 1,
-      "price": null
-    },
-    {
-      "id": "9fsqmaez",
-      "productId": "12",
-      "name": "Samsung Galaxy A13 4/128GB Black",
-      "count": 1,
-      "price": 14990
-    },
-    {
-      "id": "8gnhyox9",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "wz73ooyb",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "1yjalxsp",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "yn8ot7jt",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "v1vo8tpu",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "xeqhtbqq",
-      "count": 2,
-      "price": null
-    },
-    {
-      "id": "qmssjhda",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 2,
-      "price": 59990
-    },
-    {
-      "id": "vt4ier8n",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 2,
-      "price": 59990
-    },
-    {
-      "id": "097ed1cc",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 2,
-      "price": 59990
-    },
-    {
-      "id": "rftce8nt",
-      "productId": "12",
-      "name": "Samsung Galaxy A13 4/128GB Black",
-      "count": 2,
-      "price": 14990
-    },
-    {
-      "id": "6k7yjme0",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "u4bwx5pk",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "5jb29ajo",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "lqgnjfx8",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "tagoprp8",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
-    },
-    {
-      "id": "8j3g6hz2",
-      "productId": "9",
-      "name": "Samsung Galaxy Z Flip4 8/128GB лавандовый (F721)\t",
-      "count": 1,
-      "price": 59990
     }
   ]
 }

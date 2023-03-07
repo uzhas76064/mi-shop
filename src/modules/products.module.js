@@ -1,8 +1,10 @@
 import {getData, postData} from "./api.module";
+
 const hashGenerator = require('hash-generator')
 
 export const productsFunc = () => {
     const container = document.getElementById('products-container')
+
 
     const render = (data) => {
         console.log(data)
@@ -40,13 +42,11 @@ export const productsFunc = () => {
                 console.log(e.target.nodeName)
                 console.log(e.target.dataset.id)
                 const productId = e.target.dataset.id
-                let count = 1;
 
                 const cartData = {
                     id: hashGenerator(8),
                     productId,
                     name: e.target.dataset.productname,
-                    count,
                     price: Number(e.target.dataset.price)
                 }
                 console.log(cartData)
@@ -60,12 +60,10 @@ export const productsFunc = () => {
                 }).then(data => {
                     return data
                 })
-                count++
             })
 
         })
     }
-
 
 
     const init = () => {

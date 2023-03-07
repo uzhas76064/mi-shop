@@ -16,12 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Posting product data into the cart">
+    <list default="true" id="cdf39a71-52a3-41e7-9d6c-26f8dd767718" name="Default Changelist" comment="Added sum calculating">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/cart.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cart.module.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/products.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/products.module.js" afterDir="false" />
     </list>
@@ -115,7 +112,7 @@
       <workItem from="1677221127869" duration="68000" />
       <workItem from="1678016579521" duration="6812000" />
       <workItem from="1678099048284" duration="7233000" />
-      <workItem from="1678172255036" duration="12279000" />
+      <workItem from="1678172255036" duration="13787000" />
     </task>
     <task id="LOCAL-00001" summary="Added content files and scripts">
       <created>1674158047960</created>
@@ -222,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678182973464</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added sum calculating">
+      <created>1678185187815</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678185187815</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +272,8 @@
     <MESSAGE value="addCategory.module.js completed" />
     <MESSAGE value="addProduct module completed" />
     <MESSAGE value="Posting product data into the cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Posting product data into the cart" />
+    <MESSAGE value="Added sum calculating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sum calculating" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678176555097">
