@@ -72,6 +72,18 @@
       "productId": "12",
       "name": "Samsung Galaxy A13 4/128GB Black",
       "price": 14990
+    },
+    {
+      "id": "woko824t",
+      "productId": "10",
+      "name": "Galaxy Watch4 46mm черный (SM-R890N)\t",
+      "price": 23990
+    },
+    {
+      "id": "4pkmq82i",
+      "productId": "11",
+      "name": "Samsung Among us",
+      "price": 990
     }
   ]
 }
