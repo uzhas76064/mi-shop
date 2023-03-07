@@ -1,12 +1,11 @@
-import {getData} from "./api.module";
+import {getData, postData} from "./api.module";
 
 export const productsFunc = () => {
     const container = document.getElementById('products-container')
-    console.log(container)
 
     const render = (data) => {
+        console.log(data)
         data.forEach((item) => {
-            console.log(item)
 
             container.insertAdjacentHTML('beforeend',
                 `  <div class="col col-12 col-sm-6 col-lg-4 col-xl-3 mb-3">
@@ -15,13 +14,13 @@ export const productsFunc = () => {
                                     <img src="${item.preview}" class="card-img-top" alt="phone-1">
                                     <div class="card-body">
                                         <span class="mb-2 d-block text-secondary">${item.categoryName}</span>
-                                        <h6 class="card-title mb-3">${item.productName}</h6>
+                                        <h6  class="card-title mb-3">${item.productName}</h6>
 
                                         <div class="row">
                                             <div class="col d-flex align-itemns-center justify-content-between">
                                                 <h4>${item.price}</h4>
-                                                <button type="button" class="btn btn-outline-dark">
-                                                    <img src="images/icon/shopping-cart-big.svg" alt="login">
+                                                <button type="button" class="add-to-cart btn btn-outline-dark">
+                                                    <img src="images/icon/shopping-cart-big.svg" alt="login" data-price="${item.price}" data-productName="${item.productName}" data-id="${item.id}">
                                                 </button>
                                             </div>
                                         </div>
@@ -31,7 +30,41 @@ export const productsFunc = () => {
                         </div>`
             )
         })
+
+        const addToCartBtn = document.querySelectorAll('.add-to-cart')
+        //console.log(addToCartBtn)
+
+        addToCartBtn.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                console.log(e.target.nodeName)
+                console.log(e.target.dataset.id)
+                console.dir(e.target)
+                const id = e.target.dataset.id
+
+                const cartData = {
+                    id: id,
+                    name: e.target.dataset.productname,
+                    count: 1,
+                    price: Number(e.target.dataset.price)
+                }
+                console.log(cartData)
+
+                postData('/cart', {
+                    method: 'POST',
+                    body: JSON.stringify(cartData),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(data => {
+                    return data
+                })
+
+            })
+
+        })
     }
+
+
 
     const init = () => {
         const params = window.location.search

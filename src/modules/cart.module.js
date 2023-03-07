@@ -3,14 +3,17 @@ import {closeModal, openModal} from "./modals.module";
 
 export const cartFunc = () => {
     const cartModal = document.querySelector('#cart-modal')
-    const closeBtn = cartModal.querySelectorAll('.close')
+    const closeBtn = cartModal.querySelectorAll('.close-btn')
     const openCartBtn = document.querySelector('#open-cart-btn')
     const container = document.getElementById('cart-container')
+    const addToCartBtn = document.querySelectorAll('.add-to-cart')
+
 
     const render = (data) => {
         container.innerHTML = ''
 
         data.forEach((item) => {
+            console.log(item)
             container.insertAdjacentHTML('beforeend',
                 `<div class="row border-bottom pb-3 pt-3">
                             <div class="col col-12 col-md-6 mb-3 mb-md-0 fs-4">

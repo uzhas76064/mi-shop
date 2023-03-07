@@ -34,7 +34,6 @@ export const doAuth = () => {
 
         if(user) {
             getData('/profile').then(data => {
-                console.log(data)
                 if (data.login === user.login && data.password === user.password) {
                     login()
                 }
